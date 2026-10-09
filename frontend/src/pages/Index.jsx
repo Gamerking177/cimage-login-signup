@@ -176,7 +176,7 @@ const Index = () => {
               </CimageCard>
             </Link>
             
-            <Link to="/games">
+            <Link to="#">
               <CimageCard 
                 className="relative h-64 overflow-hidden group" 
                 hover

@@ -34,7 +34,7 @@ const NavBar = () => {
     { name: 'About', path: '/about' },
     { name: 'Courses', path: '/courses' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Games', path: '/games' },
+    // { name: 'Games', path: '/games' },
     { name: 'Contact', path: '/contact' },
     { name: 'Login', path: '/auth/login' },
   ];
@@ -52,9 +52,9 @@ const NavBar = () => {
           onClick={closeMenu}
         >
           <img 
-            src="https://www.cimage.in/content/themes/qeducato/inc/assets/images/logoc.png" 
+            src="./logo.webp" 
             alt="Logo" 
-            className="w-30 h-10" 
+            className="w-50 h-05" 
           />
         </Link>
 
