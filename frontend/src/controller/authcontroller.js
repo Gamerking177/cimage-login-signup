@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.API_BASE_URL;
 
 const AuthController = {
   async signUp(name, email, password) {
