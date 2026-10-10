@@ -52,7 +52,7 @@ const NavBar = () => {
           onClick={closeMenu}
         >
           <img 
-            src="./logo.webp" 
+            src={`/logo.webp`} 
             alt="Logo" 
             className="w-50 h-05" 
           />

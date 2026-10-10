@@ -10,7 +10,7 @@ const CimageLogo = ({ className = "", size = 'md' }) => {
   return (
     <div className={`flex items-center justify-center ${className}`}>
       <img 
-        src="https://www.cimage.in/content/themes/qeducato/inc/assets/images/logoc.png" 
+        src={`/logo.webp`}
         alt="CIMAGE Logo" 
         className={`object-contain ${sizeClasses[size]}`}
       />
